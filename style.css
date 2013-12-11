@@ -1,0 +1,170 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* ------------------------------------------------ */
+
+html {
+  font: 16px;
+}
+
+#splash, #testimonials, #body, #footer, #header {
+  width: 100%;
+  overflow: hidden;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+#header {
+  position: fixed;
+  top: 0px;
+  height: 4em;
+  color: white;
+  background: rgba(0,0,0,0.5);
+  padding: 0.5em 0;
+  z-index: 1;
+}
+
+#splash {
+  background: url(img/bg.gif) center -200px;
+  height: 568px;
+}
+
+#splash .container {
+  position: relative;
+  height: 568px;
+}
+
+#splash h2 {
+  display: box;
+  position: absolute;
+  background: rgba(0,0,100,0.5);
+  text-align: center;
+  color: white;
+  bottom: 20px;
+  right: 20px;
+  height: 100px;
+  width: 400px;
+  font-size: 2em;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+#testimonials {
+  background: black;
+}
+
+#testimonials #slider {
+  display: box;
+  background: grey;
+  height: 300px;
+  margin: 60px auto;
+}
+
+#slider li a {
+  display: box;
+  height: 300px;
+  width: 80px;
+  text-indent: -9999em;
+  overflow: hidden;
+}
+
+#slider a.left-side { 
+  float: left; 
+  background: url(img/left_arrow.png) center center;
+}
+
+#slider a.right-side {
+  float: right; 
+  background: url(img/right_arrow.png) center center;
+}
+
+#a-testimonial {
+  background: red;
+  height: 300px;
+  width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#a-testimonial .testimonial-movie {
+  width: 300px;
+  height: 300px;
+  background: green;
+  float: left;
+}
+
+#a-testimonial .testimonial-text {
+  width: 500px;
+  height: 300px;
+  background: blue;
+  float: left;
+  color: white;
+  font: 500 1.5em/1.5em "Whitney HTF";
+}
+
+#a-testimonial .testimonial-text p {
+  padding: 10px;
+}
+
+#a-testimonial .testimonial-text p.attribution {
+  text-align: right;
+}
+
+#body {
+  background: white;
+  height: 950px;
+}
+
+#footer {
+  background: yellow;
+  height: 150px;
+}
